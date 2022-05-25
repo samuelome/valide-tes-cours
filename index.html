@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Acceuil</title>
+      <link rel="stylesheet" href="bootstrap-3.3.7-dist\css\bootstrap.min.css" type="text/css">
+</head>
+<body>
+      <div class="container-fluid">
+            <div class="row">
+                  <div class="col-md-offset-5 col-xs-offset-4 col-sm-offset-4 col-lg-offset-5" id="vtc">
+                        <h1><img src="book-g964fb82c1_1280.png" width="95px" height="95px"/><span>VALIDE</span></h1>
+                        <h2>TES COURS</h2>
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                        <nav class="navbar navbar-inverse">
+                              <ul class="nav ">
+                                    <li>
+                                          <div class="btn-group">
+                                                <button id="menu" class="btn dropdown-toggle" data-toggle="dropdown"> <span class="glyphicon glyphicon-align-justify"></span></button>
+                                                <ul class="dropdown-menu">
+                                                      <div class="wrapper">
+                                                            <div class="sidebar">
+                                                                <ul>
+                                                                      <li><a href="index.html">Accueil</a></li>
+                                                                  <li><a href="Témoignages.html">Témoignages</a></li>
+                                                                     <li><a href="Avis.html">Avis</a></li>
+                                                                </ul>
+                                                            </div>
+                                                      </div>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li>
+                                          <form class="navbar pull-right">
+                                                <button type="submit" class="btn btn-primary btn-sm" id="connec" style="margin-left: 10px;"><span class="glyphicon glyphicon-log-in"></span><a href="Connexion.html"> Se connecter</a> </button>
+                                          </form>            
+                                    </li>
+                              </ul>
+                        </nav>
+                  </div>
+            </div>
+            
+            <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12 hidden-xs">
+                        <nav class="navbar navbar-inverse">
+                              <ul class="nav navbar-nav">
+                                    <li class="active"><a href="index.html">Acceuil</a></li>
+                                    <li><a href="Témoignages.html">Témoignages</a></li>
+                                    <li><a href="Avis.html">Avis</a></li>
+                              </ul>
+
+                              <form class="navbar-form pull-right">
+                                    <button type="submit" class="btn btn-primary btn-sm" style="margin-left: 250px;"><span class="glyphicon glyphicon-log-in"></span><a href="Connexion.html"> Se connecter</a> </button>
+                              </form>
+                        </nav>
+                  </div>
+
+                      
+            </div>
+            
+            
+            
+            
+            <div class="row">
+                  <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="présentation">
+                        <header class="page-header">
+                              <h2 id="bienvenue">BIENVENUE SUR <strong> "VALIDE TES COURS"</strong></h2>
+                        </header>
+                  </section>
+                  <div class="row">
+                        <div class="col-lg-12">
+                              <div id="texte">
+                                    <b>"VALIDE TES COURS"</b>  est une plateforme universitaire sur laquelle vous pouvez trouver vos cours, 
+                                     ce qui vous permettra un meilleur suivi et une bonne compréhension des notions. Sur cette plateforme 
+                                     vous pouvez aussi trouver des exercices ainsi que leurs corrigés par matière. On vous propose aussi des TDs,
+                                     et un recueil d'épreuves dans toutes vos matières vous est présenté.
+                              </div>
+ 
+                        </div>
+                  </div>
+            
+            </div>
+            <div class="row">
+                  <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                        <strong id="P">P</strong>our pouvoir beneficier pleinement de notre plateforme, inscrivez vous à partir de ce formulaire. <br><br><br>
+                        <div id="inscription">
+                              <form action="" class="form-inline">
+                                    <fieldset>
+                                      <legend align= "center"> <b> Inscription </b></legend>
+                                        <fieldset id="set">
+                                              <legend id="sam">Etat civil</legend>
+                                          <label for="nom">Nom</label>
+                                          <input type="text" class="form-control" style="width: 200px;" id="nom" placeholder="écrivez votre nom"><br><br>
+                                          <label for="prenom">Prénom</label>
+                                          <input type="text" id="prenom" class="form-control" style="width: 200px;" placeholder="écrivez votre prénom"><br><br>
+                                          </fieldset>
+                                          <fieldset id="set2">
+                                               <legend id="samo">Profil</legend>
+                                          <label for="email">Email</label>
+                                          <input type="mail" class="form-control mail" id="email" style="width: 200px;" placeholder="écrivez votre adresse email" size="40%"><br><br>
+                                          <label for="mot_de_passe">Mot de passe</label>
+                                          <input type="password" class="form-control password" id="passeword" style="width: 200px;" placeholder="créer un mot de passe"><br><br>
+                                          
+                                          </fieldset><br>
+                                          <p>
+                                                Sexe <br>
+                                                <input type="radio" id="sexe" name="sexe"><label for="homme">Homme</label><br>
+                                                <input type="radio" id="sexe" name="sexe"><label for="femme">Femme</label>
+                                          </p><br>
+                                          <label for="pays">Pays d'origine</label>
+                                          <select name="pays" id="pays" style="width: 200px;" class="form-control">
+                                                <option value="Bénin">Choisir un pays</option> 
+                                                <option value="Bénin">Togo</option>
+                                                <option value="Bénin">Côte d'Ivoire</option>
+                                                <option value="Bénin">Niger</option>
+                                                <option value="Bénin">Nigéria</option>
+                                                <option value="Bénin">Bénin</option>
+                                                <option value="Bénin">Guinée</option>
+                                                <option value="Bénin">Burkina Faso</option>
+                                                <option value="Bénin">Sénégal</option>
+                                                <option value="Bénin">Zambie</option>
+                                                <option value="Bénin">Cap vert</option>
+                                                <option value="Bénin">Congo</option>
+                                                <option value="Bénin">Maroc</option>
+                                                <option value="Bénin">Tunisie</option>
+                                                <option value="Bénin">Afrique du sud</option>
+                                                <option value="Bénin">Kenya</option>
+                                                <option value="Bénin">Tchad</option>
+                                                <option value="Bénin">Soudan</option>
+                                                <option value="Bénin">Cameroun</option>
+                                                <option value="Bénin">Mali</option>
+                                                <option value="Bénin">Gabon</option>
+                                          </select><br><br><br>
+                                          <button type="submit" class="btn btn-primary pull-right"><a href="Connexion.html" style="color: white;">Envoyer</a></button>
+                                          <button type="reset" class="btn btn-primary">Effacer</button>
+                                    </fieldset>
+                              </form>
+
+                        </div>                  
+                  </div>
+            </div>
+
+            <div class="row">
+                  <div class="hidden-xs col-sm-4 col-md-6 col-lg-6">
+                        <strong id="P">P</strong>our pouvoir beneficier pleinement de notre plateforme, inscrivez vous à partir de ce formulaire.
+                  </div>
+                  <div class="hidden-xs col-sm-8 col-md-6 col-lg-6">
+                        <div id="inscription">
+                              <form action="" class="form-inline">
+                                    <fieldset>
+                                      <legend align= "center"> <b> Inscription </b></legend>
+                                        <fieldset id="set">
+                                              <legend id="sam">Etat civil</legend>
+                                          <label for="nom">Nom</label>
+                                          <input type="text" class="form-control" style="width: 200px;" id="nom" placeholder="écrivez votre nom"><br><br>
+                                          <label for="prenom">Prénom</label>
+                                          <input type="text" id="prenom" class="form-control" style="width: 200px;" placeholder="écrivez votre prénom"><br><br>
+                                          </fieldset>
+                                          <fieldset id="set2">
+                                               <legend id="samo">Profil</legend>
+                                          <label for="email">Email</label>
+                                          <input type="mail" class="form-control mail" id="email" style="width: 200px;" placeholder="écrivez votre adresse email" size="40%"><br><br>
+                                          <label for="mot_de_passe">Mot de passe</label>
+                                          <input type="password" class="form-control password" id="passeword" style="width: 200px;" placeholder="créer un mot de passe"><br><br>
+                                          
+                                          </fieldset><br>
+                                          <p>
+                                                Sexe <br>
+                                                <input type="radio" id="sexe" name="sexe"><label for="homme">Homme</label><br>
+                                                <input type="radio" id="sexe" name="sexe"><label for="femme">Femme</label>
+                                          </p><br>
+                                          <label for="pays">Pays d'origine</label>
+                                          <select name="pays" id="pays" style="width: 200px;" class="form-control">
+                                                <option value="Bénin">Choisir un pays</option> 
+                                                <option value="Bénin">Togo</option>
+                                                <option value="Bénin">Côte d'Ivoire</option>
+                                                <option value="Bénin">Niger</option>
+                                                <option value="Bénin">Nigéria</option>
+                                                <option value="Bénin">Bénin</option>
+                                                <option value="Bénin">Guinée</option>
+                                                <option value="Bénin">Burkina Faso</option>
+                                                <option value="Bénin">Sénégal</option>
+                                                <option value="Bénin">Zambie</option>
+                                                <option value="Bénin">Cap vert</option>
+                                                <option value="Bénin">Congo</option>
+                                                <option value="Bénin">Maroc</option>
+                                                <option value="Bénin">Tunisie</option>
+                                                <option value="Bénin">Afrique du sud</option>
+                                                <option value="Bénin">Kenya</option>
+                                                <option value="Bénin">Tchad</option>
+                                                <option value="Bénin">Soudan</option>
+                                                <option value="Bénin">Cameroun</option>
+                                                <option value="Bénin">Mali</option>
+                                                <option value="Bénin">Gabon</option>
+                                          </select><br><br><br>
+                                          <button type="submit" class="btn btn-primary pull-right"><a href="Connexion.html" style="color: white;">Envoyer</a></button>
+                                          <button type="reset" class="btn btn-primary">Effacer</button>
+                                    </fieldset>
+                              </form>
+
+                        </div>                  
+                  </div>
+            </div>
+
+
+
+      </div>
+      <link rel="stylesheet" href="CSS1-2.css">
+      <link rel="stylesheet" href="">
+      <script src="jquery.min.js"></script>
+      <script src="bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+      background-image: url(pexels-pixabay-2097_1.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+#vtc h1, #vtc h2{
+      margin: 0; 
+      width: 230px; 
+      color: brown;
+      font-style: italic;
+}
+img#livre{ 
+      top: -20px; 
+      height: 95px; 
+      width: 95px;
+}
+#vtc span{
+      background-color: burlywood;
+}
+#vtc h1{
+      font: x-large;
+}
+#vtc h2{
+      position: relative; 
+      top: -38px; 
+      left: 145px;
+      font-size: small; 
+}
+.well {
+      background-color:rgba(204, 204, 204, 0.5);
+      padding: 20px;
+      font-weight: 400;
+}
+form {
+      weight: 400px;
+}
+input#nom, input#prenom, input#email, input#passeword{
+      background-color: rgba(183, 189, 189 ,0.7);
+}
+div#pouss{
+      margin-top: 100px;
+}

@@ -1,0 +1,203 @@
+header
+{
+	background-image: url(received_367807382048990.jpeg);
+	width: auto;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+body
+{
+	background-image: url(pexels-pixabay-2097_1.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+header #images
+{
+	
+	text-transform: uppercase;
+	color: white;
+	font-family: Arial, sans-serif, bodoni MT, Helvetica;
+	margin-left: 0px;
+	padding-top: 100px;
+	font-size: 100%;
+
+}
+#presentation  h3
+{
+	text-transform: uppercase;
+	font-family: Arial, sans-serif, bodoni MT, Helvetica;
+	font-weight: normal;
+	color: red;
+font-size: 140%;
+}
+.presentation-block
+{
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	background: lightblue;
+	border-radius: 10px;
+	border: 2px solid red;
+	margin-bottom: 20px;
+	margin-top: 80px;
+}
+p
+{
+font-family: Arial, sans-serif, bodoni MT, Helvetica;
+font-weight: lighter;
+line-height: 120%;
+font-size: 120%;
+}
+hr
+{
+	width: 80px;
+	color: red;
+}
+#bas
+{
+	background-color: black;
+	color: white;
+}
+
+#bas 
+{
+	width: 1500px;
+	height: 500px;
+	background-color: #A6A6A6;
+}
+
+#xs
+{
+	text-transform: uppercase;
+	color: white;
+	font-family: Arial, sans-serif, bodoni MT, Helvetica;
+     padding-top: 100px;
+     padding-left: 125px;
+	font-size: 100%;
+}
+#bouton1
+{
+     padding-top: 50px;
+     padding-left: 80px;
+}
+#sm
+{
+  text-transform: uppercase;
+	color: white;
+	font-family: Arial, sans-serif, bodoni MT, Helvetica;
+     padding-top: 100px;
+     padding-left: 350px;
+	font-size: 100%;
+}
+#bouton2
+{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+#md
+{
+  text-transform: uppercase;
+	color: white;
+	font-family: Arial, sans-serif, bodoni MT, Helvetica;
+     padding-top: 100px;
+     padding-left: 350px;
+	font-size: 140%;
+}
+#bouton3
+{
+     padding-top: 80px;
+     padding-left: 160px;
+}
+#lg 
+{
+  text-transform: uppercase;
+	color: white;
+	font-family: Arial, sans-serif, bodoni MT, Helvetica;
+     padding-top: 70px;
+     padding-left: 100px;
+	font-size: 140%;
+	margin-left: 0px;
+}
+#bouton4
+{
+ padding-top: 60px;
+     padding-left: 530px;
+}
+
+
+.sidebar ul
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	background: #4b4276;
+	line-height: 400%;
+}
+.wrapper .sidebar{
+	width: 200px;
+	height: 100px;
+	background: #4b4276;
+}
+.wrapper .sidebar h2{
+color: #fff;
+text-transform: uppercase ;
+text-align: center;
+margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.wrapper .sidebar ul li a{
+color: #bdb8d7;
+display: block;
+}
+.wrapper .sidebar ul li a .fas{
+	width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+	background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a{
+color: #fff;
+}
+.dropdown-menu{
+      background-color:  #4b4276;
+}
+button#menu{
+      margin-top: 8px;
+      background-color: black;
+      border-color: black;
+      color: grey;
+      margin-left: 8px;
+      margin-right: 8px
+}
+
+
+
+.navbar .navbar-nav {     
+      float: none;
+      display:inline-flex;
+      padding-left: 1em;
+}
+.btn-group{
+      margin-top: auto;
+}
+.dropdown-menu{
+      padding-top: 50px;
+}
+.navbar-inverse{
+	background-color: rgba(0, 0, 0, 0.6 );
+}
+li.active {
+	margin-top: -11px;
+}

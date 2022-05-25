@@ -1,0 +1,118 @@
+body{
+      background-image: url(pexels-pixabay-2097_1.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      width: auto;
+      background-attachment: fixed;}
+#vtc h1, #vtc h2{
+      margin: 0; 
+      width: 230px; 
+      color: brown;
+      font-style: italic;
+}
+img#livre{ 
+      top: -20px; 
+      height: 95px; 
+      width: 95px;
+}
+#vtc span{
+      background-color: burlywood;
+}
+#vtc h1{
+      font: x-large;
+}
+#vtc h2{
+      position: relative; 
+      top: -38px; 
+      left: 145px;
+      font-size: small; 
+}
+.well {
+      background-color:rgba(204, 204, 204, 0.5);
+      padding: 20px;
+      font-weight: 400;
+}
+form {
+      weight: 400px;
+}
+.navbar li a{
+      color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #000 !important;
+      margin-top: auto;
+}
+textarea#textarea{
+      background-color: rgba(204, 204, 204, 0.8) !important;
+}
+.navbar .navbar-nav {     
+      float: inline-start;
+      display:inline-flex;
+      padding-left: 1em;
+}
+.btn-group{
+      margin-top: auto;
+}
+.dropdown-menu{
+      padding-top: 50px;
+}
+button#menu{
+      margin-top: 8px;
+      background-color: black;
+      border-color: black;
+      color: grey;
+      margin-left: 8px;
+      margin-right: 8px
+}
+.sidebar ul
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	background: #4b4276;
+	line-height: 400%;
+}
+.wrapper .sidebar{
+	width: 200px;
+	height: 100px;
+	background: #4b4276;
+}
+.wrapper .sidebar h2{
+color: #fff;
+text-transform: uppercase ;
+text-align: center;
+margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.wrapper .sidebar ul li a{
+color: #bdb8d7;
+display: block;
+}
+.wrapper .sidebar ul li a .fas{
+	width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+	background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a{
+color: #fff;
+}
+.dropdown-menu{
+      background-color:  #4b4276;
+}
+div#sep {
+      margin-top: 100px;
+}
+div#pouss{
+      margin-top: 50px;
+}
+.navbar li {
+      margin-top: 0;
+}

@@ -1,0 +1,135 @@
+body{
+      background-image: url(pexels-pixabay-2097_1.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+#vtc h1, #vtc h2{
+      margin: 0; 
+      width: 230px; 
+      color: brown;
+      font-style: italic;
+}
+img#livre{ 
+      top: -20px; 
+      height: 95px; 
+      width: 95px;
+}
+#vtc span{
+      background-color: burlywood;
+}
+#vtc h1{
+      font: x-large;
+}
+#vtc h2{
+      position: relative; 
+      top: -38px; 
+      left: 145px;
+      font-size: small; 
+}
+#temoignage img{
+      width: 60px;
+      height: 60px;
+      border-radius: 100%;
+}
+h3 {
+      font-size: small;
+      top: -20px;
+      font-weight: bold;
+}
+#premier div {
+      background-color: rgba(183, 189, 189 ,0.4);
+      padding-left: 5px;
+}
+#deuxieme div {
+      background-color: rgba(183, 189, 189 ,0.4);
+      padding-left: 5px;
+      margin-top: 20px !important;
+}
+#troisieme div{
+      background-color: rgba(183, 189, 189 ,0.4);
+      padding-left: 5px;
+}
+#deuxieme div{
+      top: 30em;
+}.navbar li a{
+      color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #000 !important;
+      margin-top: auto;
+}
+#temoignage h1{
+      font-size: 30px;
+}
+.navbar .navbar-nav {     
+      float: inline-start;
+      display:inline-flex;
+      padding-left: 1em;
+}
+.btn-group{
+      margin-top: auto;
+}
+.dropdown-menu{
+      padding-top: 50px;
+}
+button#menu{
+      margin-top: 8px;
+      background-color: black;
+      border-color: black;
+      color: grey;
+      margin-left: 8px;
+      margin-right: 8px
+}
+.sidebar ul
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	background: #4b4276;
+	line-height: 400%;
+}
+.wrapper .sidebar{
+	width: 200px;
+	height: 100px;
+	background: #4b4276;
+}
+.wrapper .sidebar h2{
+color: #fff;
+text-transform: uppercase ;
+text-align: center;
+margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.wrapper .sidebar ul li a{
+color: #bdb8d7;
+display: block;
+}
+.wrapper .sidebar ul li a .fas{
+	width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+	background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a{
+color: #fff;
+}
+.dropdown-menu{
+      background-color:  #4b4276;
+}
+div#sep {
+      margin-top: 100px;
+}
+#temoignage .col-xs-4{
+      margin-top: 50px;
+}
+.navbar li {
+      margin-top: 0;
+}

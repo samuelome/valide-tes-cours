@@ -1,0 +1,161 @@
+body{
+      background-image: url(pexels-pixabay-2097_2.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+a{
+      text-decoration: none;
+}
+#vtc h1, #vtc h2{
+      margin: 0; 
+      width: 230px; 
+      color: brown;
+      font-style: italic;
+}
+img#livre{ 
+      top: -20px; 
+      height: 95px; 
+      width: 95px;
+}
+#vtc span{
+      background-color: burlywood;
+}
+#vtc h2{
+      position: relative; 
+      top: -38px; 
+      left: 145px;
+      font-size: small; 
+}
+.page-header{
+      border-bottom: 1px black solid ;
+}
+button#menu{
+      margin-top: 8px;
+      background-color: black;
+      border-color: black;
+      color: grey;
+      margin-left: 8px;
+      margin-right: 8px
+}
+div#texte{
+      font-size: 17px;
+      text-indent: 2em;
+      padding-left: 20px;
+}
+strong#P{
+      font-size: 35px;
+}
+#inscription form {
+      width: 400px;
+      border-radius: 5px;
+      background-color: rgba(183, 189, 189 ,0.5);
+      padding-left: 30px;
+      padding-right: 30px;
+}
+#inscription div {
+      position: absolute;
+      height: ;
+      left: 25%
+}
+fieldset#set {
+      border-style: dashed; border-color: rgb(136, 161, 161);
+}
+fieldset#set2 {
+      border-style: dashed; border-color: rgb(136, 161, 161);
+}
+legend#sam, legend#samo {
+      color: rgb(22, 92, 92);
+      font-style: italic;
+}
+select#pays {
+      background-color: rgba(183, 189, 189 ,0.7);
+      color: black;
+}
+#set input {
+      color: black;
+}
+#set2 input {
+      color: black;
+}
+input#nom, input#prenom, input#email, input#passeword{
+      background-color: rgba(183, 189, 189 ,0.7);
+}
+.sidebar ul
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	background: #4b4276;
+	line-height: 400%;
+}
+.wrapper .sidebar{
+	width: 200px;
+	height: 100px;
+	background: #4b4276;
+}
+.wrapper .sidebar h2{
+color: #fff;
+text-transform: uppercase ;
+text-align: center;
+margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.wrapper .sidebar ul li a{
+color: #bdb8d7;
+display: block;
+}
+.wrapper .sidebar ul li a .fas{
+	width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+	background: #594f8d;
+}
+.wrapper .sidebar ul li:hover a{
+color: #fff;
+}
+.dropdown-menu{
+      background-color:  #4b4276;
+}
+div#sep {
+      margin-top: 100px;
+}
+.navbar li a{
+      color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #000 !important;
+      margin-top: auto;
+}
+#sep button{
+      background-color: #0250ff;
+      color: #fff !important;
+}
+.navbar .navbar-nav {     
+      padding-left: 1em;
+}
+.btn-group{
+      margin-top: auto;
+}
+.dropdown-menu{
+      padding-top: 50px;
+}
+.navbar li {
+      margin-top: 0px;
+}
+.navbar-form a {
+      color: #fff;
+}
+button#connec{
+      margin-left: 20px;
+}
+.navbar {
+      
+}
